@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio - Développeur Web</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="burger" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+            <section class="hero" id="home"> 
+        <div class="hero-content">
+            <h1>Salut, je suis GLADISSE</h1>
+
+            <div class="typing-text" id="typingText"> </div>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+                <a href="#contact" class="btn btn-secondary">Me contacter</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="reveal">
+        <h2 class="section-title">À propos de moi</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Bonjour ! Je suis un développeur web passionné avec une expertise en création d'applications web modernes et performantes.</p>
+                <p>Je me spécialise dans le développement front-end et back-end, avec une forte attention portée aux détails et à l'expérience utilisateur.</p>
+                <p>Mon objectif est de créer des solutions numériques élégantes qui résolvent des problèmes réels et apportent de la valeur aux utilisateurs.</p>
+            </div>
+            <div class="about-image">
+                <div class="profile-img">
+                    <!-- <i class="fas fa-user"></i> -->
+                    <img src="image/8f18df3b-961f-49da-ad3f-3aef514cd5b7-1.jpg" alt="" width="100%" ; height="100%">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="reveal">
+        <h2 class="section-title">Mes Compétences</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fab fa-html5"></i>
+                <h3>HTML & CSS</h3>
+                <p>Création d'interfaces web responsives et accessibles</p>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+                <p>Développement d'applications interactives et dynamiques</p>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-react"></i>
+                <h3>React</h3>
+                <p>Construction d'applications web modernes avec React</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-database"></i>
+                <h3>Backend</h3>
+                <p>Développement d'APIs et gestion de bases de données</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Responsive Design</h3>
+                <p>Sites adaptés à tous les appareils</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-code"></i>
+                <h3>Version Control</h3>
+                <p>Git & GitHub pour la gestion de code</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="reveal">
+        <h2 class="section-title">Mes Projets</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-img">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Application E-commerce</h3>
+                    <p>Une plateforme e-commerce complète avec panier d'achat et paiement en ligne.</p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">Mysql</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        <a href="#"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <i class="fas fa-tasks"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Gestion des location vaisselle</h3>
+                    <p>Application de gestion de vaisselle avec fonctionnalite collaboration.</p>
+                    <div class="project-tags">
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">LocalStorage</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        <a href="#"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <i class="fas fa-blog"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Application de Gestion d'ecole</h3>
+                    <p>Plateforme de blog avec système d'authentification et gestion de contenu.</p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Firebase</span>
+                        <span class="tag">Tailwind</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Application de Gestion des compte Rendus</h3>
+                        <p>Plateforme de blog avec système d'authentification et gestion de contenu.</p>
+                        <div class="project-tags">
+                            <span class="tag">PHP</span>
+                            <span class="tag">Laravel11</span>
+                            <span class="tag">Postgress</span>
+                        </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        <a href="#"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="reveal">
+        <h2 class="section-title">Contactez-moi</h2>
+        <div class="contact-content">
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+            </form>
+
+            <div class="social-links">
+                <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" title="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Mon Portfolio. Tous droits réservés.</p>
+    </footer>
+<script src="App.js">App.js</script>
+</body>
+</html>
